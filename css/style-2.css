@@ -1,0 +1,66 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato",sans-serif ;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+.pimg1{
+    background-image:url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1380&t=st=1693289700~exp=1693290300~hmac=ab10a14df8dc9df986eaa1e0fb51f334ea1358de65d6f0973b5f4c8c39c731c0);
+    min-height:100%;
+    position: relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;    
+}
+.pimg2{
+    background-image:url(https://img.freepik.com/free-photo/wet-vietnam-mountain-flow-stream-rural_1417-1357.jpg?w=1380&t=st=1693289350~exp=1693289950~hmac=22f052ff398f1f804c0e58d2d51879c07cdd0421198c70f0afa26db459ffc06e);
+    min-height:400px;
+}
+.pimg3{
+    background-image:url(https://img.freepik.com/free-photo/beautiful-shot-crystal-clear-lake-snowy-mountain-base-during-sunny-day_181624-5459.jpg?w=1380&t=st=1693289380~exp=1693289980~hmac=1c866be2392dcce22ec30ac4da2fd3c47757c6d5613513098fbe51fef3aadb70);
+    min-height:400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;      
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    letter-spacing:8px;
+    font-size:27px;
+    text-transform: uppercase;
+
+
+}
+.textBg{
+    background:#313534;
+    color:white;
+    padding:20px;
+}
+.section {
+    padding:50px 80px;
+    text-align: center;
+
+}
+.section-light{
+    background-color: #f4f4f4;
+    color:#666;
+
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}

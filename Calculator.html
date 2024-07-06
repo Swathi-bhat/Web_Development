@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function Complete(op){
+var a=parseInt(document.getElementById('num1').value);
+var b=parseInt(document.getElementById('num2').value);
+var result;
+switch(op){
+
+case '+':
+result=a+b;
+break;
+
+case '-':
+result=a-b;
+break;
+
+
+case '*':
+result=a*b;
+break;
+
+
+case '/':
+if(b!=0){
+result=a/b;
+}
+break;
+
+
+case '%':
+if(b!=0){
+result=a%b;
+}
+break;
+}
+document.getElementById('res').value=result;
+}
+
+</script>
+<style>
+    body{
+        padding-top:20px;
+        font-size:20px;
+        }
+        button{
+            width:40px;
+            height: 40px;
+            background-color: white;
+        }
+        #num1,#num2,#res{
+            height:25px;
+            font-size:15px;
+            
+        }
+        #btn{
+            width: 47px;
+            height:40px;
+            font-size:15px;
+            background-color:white;
+            
+        }
+        table{
+            width:40%;
+            height:300px;
+            background:rgb(43, 43, 147);
+            color:white;
+        }
+        h1{
+            font-size:30px;
+         
+        } 
+</style>
+</head>
+<body>
+<center>
+    <H1>SIMPLE CALCULATOR</H1>
+<table border="5px" cellspacing="0%" cellpadding="50%"><th>
+Input1:
+<input type="number" id="num1" name="txtUname"/><br><br>
+Input2:
+<input type="number" id="num2" name="txtUname"/><br><br>
+<button type="button" onclick="Complete('+')">+</button>
+<input type="button" id="btn" value="-" onclick="Complete('-');"/>
+<input type="button" id="btn" value="*" onclick="Complete('*');"/>
+<input type="button" id="btn" value="/" onclick="Complete('/');"/>
+<input type="button" id="btn" value="%" onclick="Complete('%');"/><br><br>
+Result=
+<input type="number" id="res" value=result/>
+
+</th></table>
+</center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
